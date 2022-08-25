@@ -1,0 +1,17 @@
+.table {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+
+  width: 100%;
+  height: calc(100vw);
+}
+
+@media only screen and (min-width: 550px) {
+  .table {
+    width: 550px;
+    height: 550px;
+  }
+}
